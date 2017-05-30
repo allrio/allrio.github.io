@@ -10,7 +10,7 @@ body {
 }
 
 #background-home {
-  background-image: url('images/home.jpg');
+  background-image: url('images/home.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
