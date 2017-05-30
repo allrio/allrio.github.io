@@ -5,196 +5,232 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   id="svg2"
-   viewBox="0 0 290 290"
+   width="81.844444mm"
    height="81.844444mm"
-   width="81.844444mm">
+   viewBox="0 0 290 290"
+   id="svg2"
+   version="1.1">
   <defs
      id="defs4">
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker7890"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path7892"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path7892" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker7670"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path7672"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path7672" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker7462"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path7464"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path7464" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker7260"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path7262"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path7262" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker7064"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path7066"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path7066" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker6874"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path6876"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path6876" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker6690"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path6692"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path6692" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker6512"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path6514"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path6514" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker6334"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path6336"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path6336" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker6162"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path6164"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path6164" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker5960"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path5962"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path5962" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker5704"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path5706"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path5706" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker5484"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path5486"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path5486" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker5300"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path5302"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path5302" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker5152"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         id="path5154"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path5154" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4962"
+       style="overflow:visible">
+      <path
+         id="path4964"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
        style="overflow:visible"
-       id="marker4962"
+       id="marker4743"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#5dff5d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4745" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4568"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#5dff5d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4570" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4626"
        refX="0"
        refY="0"
        orient="auto">
@@ -202,211 +238,175 @@
          transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path4964" />
+         id="path4628" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker4743"
-       style="overflow:visible">
-      <path
-         id="path4745"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#5dff5d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
-    </marker>
-    <marker
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker4568"
-       style="overflow:visible">
-      <path
-         id="path4570"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#5dff5d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
-    </marker>
-    <marker
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker4626"
-       style="overflow:visible">
-      <path
-         id="path4628"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
-    </marker>
-    <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4630"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4632"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4632" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4634"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4636"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4636" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4638"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4640"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4640" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4642"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4644"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4644" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4646"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4648"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4648" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4650"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4652"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4652" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4654"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4656"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4656" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4658"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4660"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4660" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4662"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4664"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4664" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4666"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4668"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4668" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4670"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4672"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4672" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4674"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4676"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4676" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4678"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4680"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4680" />
     </marker>
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
+       style="overflow:visible"
        id="marker4688"
-       style="overflow:visible">
+       refX="0"
+       refY="0"
+       orient="auto">
       <path
-         id="path4690"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4690" />
     </marker>
   </defs>
   <metadata
@@ -421,22 +421,24 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
+  <path
+     id="path4186"
+     d="m 87.701172,70 0,150 39.999998,0 0,-150 -39.999998,0 z"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="rect3978"
+     d="m 162.29688,70 0,150 40,0 0,-150 -40,0 z"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <flowRoot
      transform="translate(6584.5349,-2456.1994)"
-     id="layer1">
-    <flowRoot
-       style="font-style:normal;font-weight:normal;font-size:70px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4157"
-       xml:space="preserve"><flowRegion
-         id="flowRegion4159"><rect
-           y="-6812.6377"
-           x="-3920"
-           height="125"
-           width="150"
-           id="rect4161" /></flowRegion><flowPara
-         id="flowPara4163" /></flowRoot>    <path
-       id="circle3746"
-       d="m -6439.5349,2456.1994 a 145,145 0 0 0 -145,145 145,145 0 0 0 145,145 145,145 0 0 0 145,-145 145,145 0 0 0 -145,-145 z m -57.2988,70 40,0 0,150 -40,0 0,-150 z m 74.5957,0 40,0 0,150 -40,0 0,-150 z"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:52.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-  </g>
-</svg>
+     style="font-style:normal;font-weight:normal;font-size:70px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="flowRoot4157"
+     xml:space="preserve"><flowRegion
+       id="flowRegion4159"><rect
+         y="-6812.6377"
+         x="-3920"
+         height="125"
+         width="150"
+         id="rect4161"
+         style="fill:#ffff00" /></flowRegion><flowPara
+       id="flowPara4163" /></flowRoot></svg>

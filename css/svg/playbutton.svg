@@ -423,6 +423,6 @@
   </metadata>
   <path
      style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:52.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     d="M 145 0 A 145 145 0 0 0 0 145 A 145 145 0 0 0 145 290 A 145 145 0 0 0 290 145 A 145 145 0 0 0 145 0 z M 100 70.039062 L 229.9043 145.03906 L 100 220.03906 L 100 70.039062 z "
+     d="m 100,70.039062 129.9043,74.999998 -129.9043,75 0,-149.999998 z"
      id="circle3732" />
 </svg>

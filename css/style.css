@@ -10,7 +10,7 @@ body {
 }
 
 #background-home {
-  background-image: url('images/home.png');
+  background-image: url('images/home.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -317,7 +317,6 @@ i {
   display: block;
   position: absolute;
   background: black;
-  height: 52px;
   width: 100%;
   margin: 0;
   bottom: 0;
@@ -328,22 +327,38 @@ i {
 
 .fa-sm {
   color: white;
+  border-radius: 20px;
 }
 
 #twitcon:hover {
-  color: rgb(29, 161, 242);
+  background: white;
+  color: black;
 }
 
 #instacon:hover {
-  color: rgb(138, 58, 185);
+  background: white;
+  color: black;
 }
 
 #yt-con:hover {
-  color: rgb(229, 45, 39);
+  background: white;
+  color: black;
 }
 
 #sc-con:hover {
-  color: rgb(251, 143, 61);
+  background: white;
+  color: black;
+}
+
+#footerlinks {
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+#footerlinks a {
+  color: white;
+  font-weight: 100;
+  margin: 0 20px;
 }
 
 .nav-show-button {

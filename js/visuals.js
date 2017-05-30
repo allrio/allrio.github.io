@@ -15,7 +15,7 @@ imageContents.forEach(function(event) {
         setTimeout(function() {
             popUpExplain.classList.toggle("pop-up-explain-visible");
             popUpExplain.classList.toggle("pop-up-explain-hidden");
-        }, 400);
+        }, 200);
     }
   })
 })
