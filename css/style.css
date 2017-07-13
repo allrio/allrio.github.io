@@ -25,12 +25,14 @@ h1 {
   font-weight: 100;
   margin: 0 auto;
   cursor: default;
+  transition: all 1s;
 }
 
 .h1-shrink {
   font-size: 20px;
   letter-spacing: 40px;
   color: white;
+  transition: all 1s;
 }
 
 h2 {
