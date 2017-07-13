@@ -10,7 +10,7 @@ body {
 }
 
 #background-home {
-  background-image: url('../images/lonelyleaf.jpg');
+  background-image: url('../images/lonelyleaf.JPG');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -25,13 +25,6 @@ h1 {
   font-weight: 100;
   margin: 0 auto;
   cursor: default;
-  transition: all 2s;
-}
-
-h1:hover {
-  text-shadow: 0 0 30px rgba(255, 255, 255, 0.75);
-  color: white;
-  transition: all 2s;
 }
 
 .h1-shrink {
@@ -226,10 +219,6 @@ i {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
-/*
-#title-home:hover {
-  color: rgba(255, 255, 255, 1);
-}*/
 
 .brand-img {
   display: block;
