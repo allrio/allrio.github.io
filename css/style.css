@@ -10,7 +10,7 @@ body {
 }
 
 #background-home {
-  background-image: url('images/home.png');
+  background-image: url('../images/lonelyleaf.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,14 +24,14 @@ h1 {
   letter-spacing: 20px;
   font-weight: 100;
   margin: 0 auto;
-  transition: all 1s;
   cursor: default;
+  transition: all 2s;
 }
 
 h1:hover {
   text-shadow: 0 0 30px rgba(255, 255, 255, 0.75);
-  transition: all 5.2s;
   color: white;
+  transition: all 2s;
 }
 
 .h1-shrink {
@@ -124,8 +124,6 @@ i {
   z-index: 25;
   transition: 0.5s;
   overflow: hidden;
-  border-radius: 10px;
-  border-top-left-radius: 0;
 }
 
 .navleft:hover {
@@ -381,6 +379,12 @@ i {
   overflow: hidden;
 }
 
+
+
+
+
+
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 925px) {
@@ -420,7 +424,6 @@ i {
 
 @media screen and (min-width: 0px) {
   #home-nav {
-    margin-top: 100px;
     background: rgba(255, 255, 255, 0.0);
   }
 }
@@ -429,4 +432,23 @@ i {
     .pop-up-explain-hidden, .pop-up-explain-visible {
         margin: 50px 25px 0 25px;
     }
+}
+
+
+
+
+
+
+/* Keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease-in 1 forwards;
 }
