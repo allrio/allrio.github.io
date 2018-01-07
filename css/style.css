@@ -110,7 +110,7 @@ i {
   position: fixed;
   margin: 0 auto 0 0;
   width: 100px;
-  height: 200px;
+  height: auto;
   text-align: center;
   left: 50px;
   top: 150px;
@@ -154,9 +154,9 @@ i {
 #home-nav {
   position: relative;
   width: 200px;
-  height: 150px;
+  height: 200px;
   max-width: 200px;
-  max-height: 150px;
+  max-height: 200px;
   margin: 0 auto;
   padding: 0;
   left: 0;
@@ -243,7 +243,7 @@ i {
 .image {
   display: block;
   max-width: 75%;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 5px 15px;
 }
 
