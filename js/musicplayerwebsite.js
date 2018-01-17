@@ -24,9 +24,9 @@ function findAudioElements() {
 //Object with song sources
 var playlist = {
     "track_1": {
-      song: "Stressed Out",
+      song: "White as Snow",
       artist: "allen odell",
-      src: "audio/stressed out.mp3"
+      src: "audio/white as snow.mp3"
     },
   // "track_1": {
   //   song: "Road Demo",
