@@ -24,9 +24,9 @@ function findAudioElements() {
 //Object with song sources
 var playlist = {
     "track_1": {
-      song: "White as Snow",
+      song: "sovereignty",
       artist: "allen odell",
-      src: "audio/white as snow.mp3"
+      src: "audio/sovereignty (almost there).mp3"
     },
   // "track_1": {
   //   song: "Road Demo",
