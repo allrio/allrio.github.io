@@ -12,12 +12,14 @@ function shrinkIt(scroll_pos) {
   if (last_known_scroll_position < changeAtY) {
     header.classList.remove('title-shrink');
     h1.classList.remove('h1-shrink');
+    h1.classList.add('main-title');
     navLeft.style.top = "";
     navShowButton.style.top = "";
     // brandImg.classList.remove('brand-img-shrink');
   } else {;
     header.classList.add('title-shrink');
     h1.classList.add('h1-shrink');
+    h1.classList.remove('main-title');
     navLeft.style.top = '50px';
     navShowButton.style.top = '50px';
 
