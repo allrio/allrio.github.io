@@ -24,7 +24,7 @@ h1 {
   margin: 0 auto;
   cursor: default;
   transition: all 1s;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .h1-shrink {
@@ -101,6 +101,12 @@ i {
 }
 
 .contain-it {
+  max-width: 800px;
+  min-width: 300px;
+  margin: 175px auto 0 auto;
+}
+
+.contain-it-music {
   max-width: 600px;
   min-width: 300px;
   margin: 175px auto 0 auto;
@@ -192,7 +198,7 @@ i {
 }
 
 .main-title {
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   font-weight: 100;
 }
 
@@ -255,7 +261,7 @@ i {
 
 .image {
   display: block;
-  max-width: 75%;
+  max-width: 85%;
   margin: 50px auto;
   padding: 5px 15px;
 }
