@@ -20,6 +20,22 @@ section {
   padding-bottom: 25px;
 }
 
+.blog {
+  padding: 50px 0;
+}
+
+.share {
+  display: block;
+  background: rgba(0,0,0,0.9);
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+
+/* .share a {
+  width: 11.11111%;
+  margin: 0 10.11111%;
+} */
+
 h1 {
   margin: 0 auto;
   cursor: default;
