@@ -1,0 +1,497 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  letter-spacing: 10px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+section {
+  display: block;
+}
+
+img {
+  display: block;
+  width: 60%;
+  padding: 0 20%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#home {
+  background:
+  linear-gradient(
+      rgba(255, 255, 255, 0.99),
+      rgba(255, 255, 255, 0.75),
+      rgba(0, 30, 60, 0.9)
+    ),
+    url('https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2018/07/IMG_1233-1068x1322.jpeg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#about {
+  background: white;
+}
+
+#image1 {
+  background:
+  linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 30, 60, 0.5)
+    ),
+    url('https://scontent-atl3-1.cdninstagram.com/vp/263cf77c4d91bccc0566e516ade26718/5C28B405/t51.2885-15/e35/24274539_543986899280443_3437187920975364096_n.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#nav {
+  display: block;
+  height: 100px;
+  float: left;
+  width: 70%;
+  margin: 0 15%;
+  z-index: 10;
+}
+
+.nav-item {
+  display: block;
+  float: left;
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: 0.5s;
+}
+
+.nav-item a {
+  background: rgba(0,0,0,0);
+  padding: 20px;
+  border: solid rgba(0,0,0,0) 0px;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.nav-item a:hover{
+  background: rgba(0,30,60, 0.05);
+  padding: 10px;
+  /* border: solid rgba(0,0,0,0.25) 1px; */
+  border-radius: 5px;
+  transition: .4s;
+}
+
+/* .nav-item:nth-child(odd) {
+  background: rgba(0,0,0,0.05);
+} */
+
+.landing-logo {
+  width: 40%;
+  padding: 60px 30%;
+}
+
+.section-title {
+  display: block;
+  height: 175px;
+  width: 75%;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.section-title img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+  height: 50px;
+  margin-top: 25px;
+  opacity: 0.95;
+}
+
+.section-title h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.text {
+  width: 65%;
+  margin: 75px auto;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+#rozina-menu {
+  width: 80%;
+  margin: 100px auto 75px auto;
+}
+
+.rozina-menu-column {
+  width: 50%;
+}
+
+#rozina-menu table {
+  width: 100%;
+  margin: 5% 0;
+  float: none;
+}
+
+#rozina-menu td {
+  width: 25%;
+}
+
+.rozina-item-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.rozina-item-price {
+  text-align: right;
+}
+
+.rozina-item-description {
+  font-size: 14px;
+}
+
+#map {
+  height: 400px;
+  width: 80%;
+  margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------940------------------ */
+@media (max-width: 940px) {
+
+  .landing-logo {
+    width: 60%;
+    padding: 75px 20%;
+  }
+
+  .text {
+    width: 70%;
+    margin: 75px auto;
+    line-height: 35px;
+    font-size: 15px;
+  }
+
+}
+
+
+
+
+/* ------------------620------------------ */
+@media (max-width: 620px) {
+
+  .landing-logo {
+    width: 80%;
+    padding: 75px 10%;
+  }
+
+  #nav {
+    display: block;
+    height: 100px;
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+    z-index: 10;
+  }
+
+  .nav-item a {
+    background: rgba(0,0,0,0);
+    padding: 15px;
+    border: solid rgba(0,0,0,0) 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: .4s;
+  }
+
+  .section-title {
+    display: block;
+    height: 75px;
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+  }
+
+  .section-title img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    height: 25px;
+  }
+
+  .section-title h1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+    letter-spacing: 5px;
+  }
+
+  .text {
+    width: 70%;
+    margin: 75px auto;
+    line-height: 35px;
+    font-size: 15px;
+  }
+}
+
+
+
+
+/* ------------------420 (MOBILE)------------------ */
+@media (max-width: 420px) {
+
+  /*------------ Normal Stuff------------ */
+  #nav {
+    position: fixed;
+    display: none;
+    height: 100%;
+    padding: 15% 0;
+    float: right;
+    right: 0;
+    width: 150px;
+    margin: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, .85);
+  }
+
+  .nav-item {
+    display: block;
+    float: left;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 75px;
+    transition: 0.5s;
+    border-radius: 0;
+  }
+
+  .nav-item a {
+    color: white;
+    background: rgba(0,0,0,0);
+    padding: 20px;
+    border: solid rgba(0,0,0,0) 0px;
+    border-radius: 10px;
+    transition: .4s;
+  }
+
+  .nav-item a:hover{
+    background: rgba(0,0,0, 0.0);
+    padding: 10px;
+    border: solid rgba(255,255,255,0.25) 1px;
+    border-radius: 5px;
+    transition: .4s;
+  }
+
+  .landing-logo {
+    width: 90%;
+    padding: 100px 5%;
+  }
+
+  .text {
+    width: 82%;
+    margin: 70px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+
+
+
+  /*------------Rozina Menu-------------*/
+  #rozina-menu {
+    width: 95%;
+    margin: 70px auto;
+  }
+
+  .rozina-menu-column {
+    width: 100%;
+  }
+
+  #rozina-menu table {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  #rozina-menu td {
+    width: 50%;
+  }
+
+  .rozina-item-name {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .rozina-item-price {
+    text-align: right;
+  }
+
+  .rozina-item-description {
+    font-size: 14px;
+  }
+
+
+
+
+  /* Customizing close button */
+    .close {
+      position: relative;
+      display: block;
+      width: 50px;
+      height: 50px;
+      overflow: hidden;
+      opacity: 0.8;
+      right: 0;
+      top: -20px;
+      margin: auto;
+    }
+    .close:hover::before {
+      -webkit-transform: rotate(135deg);
+      -moz-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+      -o-transform: rotate(135deg);
+      transform: rotate(135deg);
+      transition: 0.5s;
+    }
+    .close:hover::after {
+      -webkit-transform: rotate(-135deg);
+      -moz-transform: rotate(-135deg);
+      -ms-transform: rotate(-135deg);
+      -o-transform: rotate(-135deg);
+      transform: rotate(-135deg);
+      transition: 0.5s;
+    }
+    .close::before, .close::after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    background: white;
+    }
+    .close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    }
+    .close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    }
+
+
+
+
+    /* Customizing close button */
+      .open-nav {
+        position: fixed;
+        display: block;
+        width: 45px;
+        height: 45px;
+        overflow: hidden;
+        opacity: 0.8;
+        right: 10px;
+        top: 10px;
+        margin: auto;
+        transition: 1s;
+      }
+      .open-nav:hover {
+        opacity: 0;
+      }
+      .open-nav:hover::before, .open-nav:hover::after {
+      background: black;
+      }
+      .open-nav::before, .open-nav::after {
+      content: '';
+      position: absolute;
+      height: 8px;
+      width: 100%;
+      left: 0;
+      margin-top: -4px;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 2px;
+      }
+      .open-nav::before {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      top: 33%;
+      }
+      .open-nav::after {
+      -webkit-transform: rotate(-0deg);
+      -moz-transform: rotate(-0deg);
+      -ms-transform: rotate(-0deg);
+      -o-transform: rotate(-0deg);
+      transform: rotate(-0deg);
+      top: 66%;
+      }
+
+}
