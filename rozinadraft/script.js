@@ -11,7 +11,6 @@ $( document ).ready(function() {
 
 
   navToggle.addEventListener('click', function(e) {
-    console.log(mobileNav)
     if (navToggleBlocks[0].style.opacity == '0') {
       mobileNav.style.height = '0%';
       mobileNavLinks[0].style.marginTop = '0px';
@@ -38,9 +37,13 @@ $( document ).ready(function() {
   })
 
   window.addEventListener('resize', function(e) {
-    console.log(this.innerWidth);
     if (this.innerWidth >= 780) {
-      mobileNav.style.height = '100px'
+      mobileNav.style.height = '100px';
+      mobileNavLinks[0].style.marginTop = '0px';
+    }
+    if (this.innerWidth <= 780) {
+      mobileNav.style.height = '0%';
+      mobileNavLinks[0].style.marginTop = '0px';
     }
   })
 
