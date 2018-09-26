@@ -3,6 +3,42 @@ $( document ).ready(function() {
 
 
 
+  // //Toggle Mobile Navigation
+  // function toggleNav() {
+  //
+  //   if (window.innerWidth < 420) {
+  //     $('.open-nav').on('click', (e) => {
+  //       $('#nav').fadeIn(500);
+  //     })
+  //
+  //     $('.close').on('click', (e) => {
+  //       $('#nav').fadeOut(500);
+  //     })
+  //
+  //     $('.nav-item').on('click', (e) => {
+  //         $('#nav').fadeOut(500);
+  //       })
+  //   } else {
+  //     $('#nav').fadeIn(500);
+  //   }
+  //
+  // }
+  //
+  //
+  // //Mobile Menu Quirks
+  // //Check for Window Resize
+  // $( window ).resize(function() {
+  //   toggleNav();
+  // });
+  //
+  // //Check for Window Scroll
+  // $( window ).scroll(function() {
+  //   toggleNav();
+  // });
+
+
+
+
   //Click on menu to show nav
   let mobileNav = document.querySelector('#nav');
   let mobileNavLinks = mobileNav.children;
@@ -37,12 +73,10 @@ $( document ).ready(function() {
     }
   })
 
-  window.addEventListener('resize', function(e) {
-    console.log(this.innerWidth);
-    if (this.innerWidth >= 780) {
-      mobileNav.style.height = '100px'
-    }
-  })
+  //Click on mobile Nav Item to close Nav
+  for (link in mobileNavLinks) {
+    // console.log(mobileNavLinks[link])
+  }
 
 
 
