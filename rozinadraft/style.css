@@ -22,6 +22,7 @@ h1 {
 
 section {
   display: block;
+  outline: none;
 }
 
 img {
@@ -41,31 +42,31 @@ a {
       linear,
       left top, left bottom,
       from(rgba(255, 255, 255, 1)),
-      color-stop(rgba(255, 255, 255, 0.5)),
+      color-stop(rgba(255, 255, 255, 0.8)),
       to(rgba(0, 30, 60, 0.5))
     ),
-    url('images/atlmagdinner.jpeg');
+    url('images/atlmagdinner.jpg');
   background:
   -webkit-linear-gradient(
       rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8),
       rgba(0, 30, 60, 0.5)
     ),
-    url('images/atlmagdinner.jpeg');
+    url('images/atlmagdinner.jpg');
   background:
   -o-linear-gradient(
       rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8),
       rgba(0, 30, 60, 0.5)
     ),
-    url('images/atlmagdinner.jpeg');
+    url('images/atlmagdinner.jpg');
   background:
   linear-gradient(
       rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8),
       rgba(0, 30, 60, 0.5)
     ),
-    url('images/atlmagdinner.jpeg');
+    url('images/atlmagdinner.jpg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -115,8 +116,27 @@ a {
   height: 100%;
 }
 
-#location, #contact {
+#image2 {
+  background: url('https://scontent-atl3-1.cdninstagram.com/vp/ab8abefdfba019ee48e65c23167c0d39/5C610842/t51.2885-15/e35/24177505_2042701215986678_920209035364401152_n.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100%;
+}
+
+#image3 {
+  background: url('https://scontent-atl3-1.cdninstagram.com/vp/df23689d77e3a056a941a2ab6b873fcd/5C477516/t51.2885-15/e35/23824739_532030233799712_1587079549328293888_n.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#footer-info {
+  height: 100%;
+  background: rgba(0, 30, 60, 1);
 }
 
 #nav {
@@ -177,7 +197,7 @@ a {
   height: 175px;
   width: 75%;
   margin: auto;
-  margin-top: 75px;
+  padding-top: 75px;
 }
 
 .section-title img {
@@ -201,7 +221,8 @@ a {
 
 .text {
   width: 65%;
-  margin: 75px auto;
+  margin: 0 auto;
+  padding: 75px 0;
   line-height: 35px;
   font-size: 20px;
 }
@@ -279,7 +300,8 @@ a {
 
   .text {
     width: 70%;
-    margin: 75px auto;
+    margin: 0 auto;
+    padding: 75px 0;
     line-height: 35px;
     font-size: 15px;
   }
@@ -322,7 +344,7 @@ a {
     height: 75px;
     width: 90%;
     margin: auto;
-    margin-top: 75px;
+    padding-top: 75px;
   }
 
   .section-title img {
@@ -346,18 +368,10 @@ a {
 
   .text {
     width: 70%;
-    margin: 75px auto;
+    margin: 0 auto;
+    padding: 75px 0;
     line-height: 35px;
     font-size: 15px;
-  }
-}
-
-
-
-
-@media screen and (min-width: 780px) {
-  #nav {
-    height: 100px;
   }
 }
 
@@ -374,6 +388,7 @@ a {
     height: 0%;
     padding: 0% 0;
     float: right;
+    top: 0%;
     right: 0;
     width: 150px;
     margin: 0;
@@ -427,7 +442,8 @@ a {
 
   .text {
     width: 82%;
-    margin: 70px auto;
+    margin: 0 auto;
+    padding: 75px 0;
     line-height: 28px;
     font-size: 14px;
   }
@@ -455,7 +471,7 @@ a {
       display: block;
       height: 9px;
       width: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0, 0.6);
       -webkit-transition: 0.4s;
       -o-transition: 0.4s;
       transition: 0.4s;
@@ -507,4 +523,14 @@ a {
         font-size: 14px;
       }
 
+}
+
+
+
+
+/*Mobile Nav Bug Fix*/
+@media screen and (min-width: 780px) {
+  #nav {
+    height: 100px;
+  }
 }
