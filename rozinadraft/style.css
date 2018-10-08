@@ -45,28 +45,28 @@ a {
       color-stop(rgba(255, 255, 255, 0.8)),
       to(rgba(0, 30, 60, 0.5))
     ),
-    url('images/atlmagdinner.jpg');
+    url('images/farmdinner.jpg');
   background:
   -webkit-linear-gradient(
       rgba(255, 255, 255, 1),
       rgba(255, 255, 255, 0.8),
       rgba(0, 30, 60, 0.5)
     ),
-    url('images/atlmagdinner.jpg');
+    url('images/farmdinner.jpg');
   background:
   -o-linear-gradient(
       rgba(255, 255, 255, 1),
       rgba(255, 255, 255, 0.8),
       rgba(0, 30, 60, 0.5)
     ),
-    url('images/atlmagdinner.jpg');
+    url('images/farmdinner.jpg');
   background:
   linear-gradient(
       rgba(255, 255, 255, 1),
       rgba(255, 255, 255, 0.8),
       rgba(0, 30, 60, 0.5)
     ),
-    url('images/atlmagdinner.jpg');
+    url('images/farmdinner.jpg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
