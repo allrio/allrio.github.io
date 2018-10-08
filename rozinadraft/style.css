@@ -218,8 +218,8 @@ a {
 }
 
 #landing-logo {
-  width: 60%;
-  padding: 100px 20%;
+  width: 25%;
+  padding: 100px 37.5%;
 }
 
 .section-title {
@@ -317,23 +317,12 @@ a {
 
 
 
+/* ------------------1200------------------ */
+@media screen and (max-width: 1200px) {
 
-
-
-/* ------------------940------------------ */
-@media screen and (max-width: 940px) {
-
-  .landing-logo {
-    width: 60%;
-    padding: 75px 20%;
-  }
-
-  .text {
-    width: 70%;
-    margin: 0 auto;
-    padding: 75px 0;
-    line-height: 35px;
-    font-size: 15px;
+  #landing-logo {
+    width: 40%;
+    padding: 100px 30%;
   }
 
 }
@@ -341,60 +330,11 @@ a {
 
 
 
-/* ------------------620------------------ */
-@media screen and (max-width: 620px) {
 
-  .landing-logo {
-    width: 80%;
-    padding: 75px 10%;
-  }
 
-  #nav {
-    display: block;
-    height: 100%;
-    float: left;
-    width: 80%;
-    margin: 0 10%;
-    z-index: 10;
-  }
 
-  .nav-item a {
-    background: rgba(0,0,0,0);
-    padding: 15px;
-    border: solid rgba(0,0,0,0) 0px;
-    border-radius: 10px;
-    font-size: 15px;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
-  }
-
-  .section-title {
-    display: block;
-    height: 75px;
-    width: 90%;
-    margin: auto;
-    padding-top: 75px;
-  }
-
-  .section-title img {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: auto;
-    height: 25px;
-  }
-
-  .section-title h1 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    line-height: 50px;
-    font-size: 23px;
-    letter-spacing: 5px;
-  }
+/* ------------------940------------------ */
+@media screen and (max-width: 940px) {
 
   .text {
     width: 70%;
@@ -403,6 +343,7 @@ a {
     line-height: 35px;
     font-size: 15px;
   }
+
 }
 
 
@@ -465,9 +406,9 @@ a {
     transition: .4s;
   }
 
-  .landing-logo {
-    width: 90%;
-    padding: 100px 5%;
+  #landing-logo {
+    width: 80%;
+    padding: 100px 10%;
   }
 
   .text {
@@ -562,7 +503,7 @@ a {
 
 
 
-/*Mobile Nav Bug Fix*/
+/*Desktop Nav Bug Fix*/
 @media screen and (min-width: 780px) {
   #nav {
     height: 100px;

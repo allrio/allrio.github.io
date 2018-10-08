@@ -114,14 +114,16 @@ $( document ).ready(function() {
       let screenHeight = this.innerHeight;
       let pagePercentage = (scrollPos+screenHeight)/body.scrollHeight;
 
-      landingLogo.style.transform = 'translate(0px, ' + scrollPos/10 + '%)';
+      landingLogo.style.transform = 'translate(0px, ' + scrollPos/15 + '%)';
       landingLogo.style.opacity = 1 - scrollPos/(screenHeight*(.75));
       dotContainer.style.opacity = scrollPos/screenHeight;
       dotContainer.style.right = (scrollPos/screenHeight)*32 + 'px';
 
+      //Scroll Dot Indicator
       if (parseInt(dotContainer.style.right.substring(0, 4)) >  32) {
         dotContainer.style.right = '32px'
       };
+
 
       if (aboutSection.offsetTop-300 < scrollPos && scrollPos < menuSection.offsetTop-300) {
         dots[1].style.background = 'rgba(0, 30, 60, 0.3)';
