@@ -5,11 +5,19 @@ $( document ).ready(function() {
 
 
   //Variables
+  let body = document.querySelector('body');
   let mobileNav = document.querySelector('#nav');
   let mobileNavLinks = mobileNav.children;
   let navToggle = document.querySelector('.nav-toggle');
   let navToggleBlocks = navToggle.children;
-  let landingLogo = document.querySelector('.landing-logo');
+  let landingLogo = document.querySelector('#landing-logo');
+  let dotContainer = document.querySelector('.dot-container');
+  let dots = document.querySelectorAll('.dot');
+
+  let aboutSection = document.querySelector('#about');
+  let menuSection = document.querySelector('#menu');
+  let locationSection = document.querySelector('#location');
+  let contactSection = document.querySelector('#contact');
 
 
 
@@ -80,7 +88,7 @@ $( document ).ready(function() {
           event.preventDefault();
           $('html, body').animate({
             scrollTop: target.offset().top
-          }, 1000, function() {
+          }, 1400, function() {
             // Callback after animation
             // Must change focus!
             var $target = $(target);
@@ -103,9 +111,31 @@ $( document ).ready(function() {
     window.addEventListener('scroll', function() {
 
       let scrollPos = this.scrollY;
+      let screenHeight = this.innerHeight;
+      let pagePercentage = (scrollPos+screenHeight)/body.scrollHeight;
 
       landingLogo.style.transform = 'translate(0px, ' + scrollPos/10 + '%)';
-      landingLogo.style.opacity = 1 - scrollPos/600;
+      landingLogo.style.opacity = 1 - scrollPos/(screenHeight*(.75));
+      dotContainer.style.opacity = scrollPos/screenHeight;
+      dotContainer.style.right = (scrollPos/screenHeight)*32 + 'px';
+
+      if (parseInt(dotContainer.style.right.substring(0, 4)) >  32) {
+        dotContainer.style.right = '32px'
+      };
+
+      if (aboutSection.offsetTop-300 < scrollPos && scrollPos < menuSection.offsetTop-300) {
+        dots[1].style.background = 'rgba(0, 30, 60, 0.3)';
+      } else { dots[1].style.background = 'rgba(0, 0, 0, 0.0)' };
+      if (menuSection.offsetTop-300 < scrollPos && scrollPos < locationSection.offsetTop-300) {
+        dots[2].style.background = 'rgba(0, 30, 60, 0.3)';
+      } else { dots[2].style.background = 'rgba(0, 0, 0, 0.0)' };
+      if (locationSection.offsetTop-300 < scrollPos && scrollPos < contactSection.offsetTop-300) {
+        dots[3].style.background = 'rgba(0, 30, 60, 0.3)';
+      } else { dots[3].style.background = 'rgba(0, 0, 0, 0.0)' };
+      if (contactSection.offsetTop-300 < scrollPos) {
+        dots[4].style.background = 'rgba(0, 30, 60, 0.3)';
+      } else { dots[4].style.background = 'rgba(0, 0, 0, 0.0)' };
+
     })
 
 
