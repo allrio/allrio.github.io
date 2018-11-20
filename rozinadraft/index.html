@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <title>Rozina Bakehouse & Coffee</title>
@@ -46,7 +47,9 @@
         </div>
     </navbar>
 
-      <img id="landing-logo" src="images/rozinav2logovert.png" alt="">
+      <img id="landing-logo" src="images/rozinalandinglogovert.png" alt="">
+
+      <h2 style="text-align: center; letter-spacing: 6px; color: white">Coming Soon!</h2>
 
   </section>
 
@@ -58,7 +61,9 @@
     </div>
 
     <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie sed lectus et maximus. Morbi efficitur diam sem, nec varius metus suscipit molestie. Aliquam neque libero, tincidunt at urna eget, dictum bibendum erat. Cras consectetur, dui vestibulum commodo bibendum, ligula lorem pharetra massa, id ullamcorper ligula lorem vel eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie sed lectus et maximus. Morbi efficitur diam sem, nec varius metus suscipit molestie. Aliquam neque libero, tincidunt at urna eget, dictum bibendum erat. Cras consectetur, dui vestibulum commodo bibendum, ligula lorem pharetra massa, id ullamcorper ligula lorem vel eros.
+      At Rozina Bakehouse & Coffee, we offer delicious, beautiful, and simple foods and drinks with flavors from Turkey, Libya, Israel, and several other Mediterranean regions and beyond, using ingredients sourced as locally as possible. We feel a deep obligation to support Georgia’s local agriculture, knowing that only the best quality is being used in our unique recipes—recipes that will expand the mind on what is typically thought of as “Mediterranean Food”. <br> <br>
+
+      Chef Shay Lavi, known for his catering company “Let’s Eat!”, learned to cook from his grandmother, Rozina, and wanted to name the restaurant in her honor. His passion for cooking is more than evident, and he is dedicated to creating food that is heart-warming and smile-inducing for all people.
     </p>
 
   </section>
@@ -71,7 +76,21 @@
       <h1>Menu</h1>
       <img src="images/rozinawheatstalks.png" alt="">
     </div>
-    <div id="rozina-menu">
+
+
+
+    <p class="text" style="font-size: 20px">
+      Serving up ready-to-go Mediterranean-inspired pastries and sandwiches along with a rotating menu of several other delicious treats.
+
+      <strong>Stay tuned for updates! </strong>
+    </p>
+
+
+
+
+
+
+    <!-- <div id="rozina-menu">
 
 
 
@@ -167,7 +186,7 @@
             <td class="rozina-item-description">Description</td>
           </tr>
         </table>
-      </div>
+      </div> -->
 
 
 
@@ -187,18 +206,21 @@
 
 
 
+<h3 style="text-align: center; font-size: 24px; letter-spacing: 4px; margin-bottom: 75px">33 Hurt Plaza SE, Atlanta, GA, 30303</h3>
 
+<h3 style="text-align: center"><a style="padding: 10px; background: lightgreen; border-radius: 10px" href="https://goo.gl/maps/seZhwHsnGB82" target="_blank">Get Directions</a></h3>
 
 <!--The div element for the map -->
 <div id="map"></div>
+
 <script>
 // Initialize and add the map
 function initMap() {
 // The location of Atlanta
-var uluru = {lat: 33.749, lng: 84.338};
+var uluru = {lat: 33.754274, lng: -84.387987};
 // The map, centered at Atlanta
 var map = new google.maps.Map(
-  document.getElementById('map'), {zoom: 4, center: uluru});
+  document.getElementById('map'), {zoom: 18, center: uluru});
 // The marker, positioned at Uluru
 var marker = new google.maps.Marker({position: uluru, map: map});
 }
@@ -219,8 +241,25 @@ var marker = new google.maps.Marker({position: uluru, map: map});
       <img src="images/rozinawheatstalks.png" alt="">
     </div>
 
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie sed lectus et maximus. Morbi efficitur diam sem, nec varius metus suscipit molestie. Aliquam neque libero, tincidunt at urna eget, dictum bibendum erat. Cras consectetur, dui vestibulum commodo bibendum, ligula lorem pharetra massa, id ullamcorper ligula lorem vel eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie sed lectus et maximus. Morbi efficitur diam sem, nec varius metus suscipit molestie. Aliquam neque libero, tincidunt at urna eget, dictum bibendum erat. Cras consectetur, dui vestibulum commodo bibendum, ligula lorem pharetra massa, id ullamcorper ligula lorem vel eros.
+    <p class="text" style="text-align: center; font-size: 20px">
+
+      Follow us on Instagram and Facebook!
+
+      <br>
+
+      <a href="https://www.instagram.com/rozinabakehouse/">
+        <i style="padding: 20px" class="fab fa-instagram fa-5x"></i>
+      </a>
+
+      <a href="https://www.facebook.com/pages/category/Restaurant/Rozina-bakehouse-2186430271602794/">
+          <i style="padding: 20px" class="fab fa-facebook-square fa-5x"></i>
+      </a>
+
+      <br><br>
+
+      For any questions, feel free to email us at: <br>
+      <a href="mailto:rozinabake@gmail.com"><strong>rozinabake@gmail.com</strong></a>
+
     </p>
 
   </section>
@@ -229,7 +268,11 @@ var marker = new google.maps.Marker({position: uluru, map: map});
 
 
   <section id="footer-info">
+    <img id="footer-logo" src="images/rozina-nocircle-light-linesonly.png" alt="">
 
+    <p style="text-align: center; font-size: 24px; letter-spacing: 4px; margin-bottom: 75px; color: white">33 Hurt Plaza SE, Atlanta, GA, 30303</p>
+
+    <p style="text-align: center; font-size: 12.5px; color: rgba(255,255,255,0.215)">website + logo created by <a style="color: rgba(255,255,255,0.215); ;letter-spacing: 3px;" target="_blank" href="https://www.allenosorio.com"> . . . {odell web + design}</a></p>
   </section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
