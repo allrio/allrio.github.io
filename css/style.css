@@ -282,6 +282,12 @@ i {
   padding: 5px 15px;
 }
 
+figcaption {
+  color: grey;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
 .image-content {
   max-width: 1000px;
   min-width: 320px;

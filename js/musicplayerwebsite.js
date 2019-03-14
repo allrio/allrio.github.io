@@ -24,9 +24,9 @@ function findAudioElements() {
 //Object with song sources
 var playlist = {
     "track_1": {
-      song: "sovereignty",
+      song: "sing & talk",
       artist: "allen odell",
-      src: "audio/sovereignty (almost there).mp3"
+      src: "audio/sing & talk (mix 1.5).wav"
     },
   // "track_1": {
   //   song: "Road Demo",
