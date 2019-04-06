@@ -51,6 +51,10 @@ h1 {
   transition: all 1s;
 }
 
+.article-title {
+  margin: auto 15px;
+}
+
 h2 {
   font-weight: 100;
   padding: 0 10px;
@@ -388,6 +392,7 @@ figcaption {
 }
 
 #footerlinks a {
+  display: block;
   color: white;
   font-weight: 100;
   margin: 0 20px;
