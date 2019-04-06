@@ -26,7 +26,7 @@ var playlist = {
     "track_1": {
       song: "sing & talk",
       artist: "allen odell",
-      src: "audio/sing & talk (mix 1.5).wav"
+      src: "audio/sing & talk.wav"
     },
   // "track_1": {
   //   song: "Road Demo",
@@ -57,7 +57,13 @@ var playlist = {
     song: "Distant Memory",
     artist: "allen odell",
     src: "audio/distant memory.mp3"
+  },
+  "track_4": {
+    song: "Petrie",
+    artist: "allen odell",
+    src: "audio/petrie.mp3"
   }
+
 }
 
 
