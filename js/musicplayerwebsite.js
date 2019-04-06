@@ -26,7 +26,7 @@ var playlist = {
     "track_1": {
       song: "sing & talk",
       artist: "allen odell",
-      src: "audio/sing & talk.wav"
+      src: "audio/sing & talk (mix 1.5).wav"
     },
   // "track_1": {
   //   song: "Road Demo",
