@@ -281,9 +281,22 @@ i {
 
 .image {
   display: block;
-  max-width: 85%;
-  margin: 50px auto;
-  padding: 5px 15px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.visuals-menu-item {
+  display: block;
+  max-width: 40%;
+  margin: 100px auto;
+}
+
+.visuals-menu-img {
+  display: block;
+  max-width: 100%;
 }
 
 figcaption {
@@ -306,6 +319,16 @@ figcaption {
   z-index: 1;
   transition: 1s;
   cursor: pointer;
+}
+
+.pentax-though {
+  max-width: 60%;
+  max-height: 300px;
+}
+
+.pentax-though-vertical {
+  max-width: 60%;
+  max-height: 400px;
 }
 
 /*.expand {
