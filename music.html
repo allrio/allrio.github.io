@@ -2,38 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Allen Osorio - Music</title>
-  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Halant|Neuton" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/musicplayerwebsite.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Halant|Neuton" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/musicplayerwebsite.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Google Analytics Begin -->
 
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
+      (i[r] =
+        i[r] ||
+        function() {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+      (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
       a.async = 1;
       a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      'script',
+      'https://www.google-analytics.com/analytics.js',
+      'ga'
+    );
 
     ga('create', 'UA-97469223-1', 'auto');
     ga('send', 'pageview');
   </script>
 
   <!-- Google Analytics End -->
-
 </head>
 
 <body>
@@ -44,7 +52,7 @@
       <navbar class="navleft">
         <div class="nav-show-button">menu</div>
         <ul>
-          <li><a href="index.html"><img id="letterhouse" src="css/svg/letterhouse.svg" alt=""></a></li>
+          <li><a href="index.html">home</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="music.html">music</a></li>
           <li><a href="visuals.html">visuals</a></li>
@@ -54,33 +62,39 @@
     </header>
     <div class="contain-it-music fade-in">
       <section>
-
-
-        <iframe class="image" src="https://open.spotify.com/embed/track/4W5tVDc7a3JDVZKuJUWuoy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-
+        <h2 class="text-centered">
+          "Chattanooga / I Hear You" out now available everywhere!
+        </h2>
+        <iframe src="https://open.spotify.com/embed/album/2tdV7Y2fZOIr9uofn4m89T" class="image" width="300" height="180" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
         <!-- <a href="https://www.soundcloud.com/allrio">
           <img class="image" src="images/childlikenessalbumcover.jpg" alt="Childlikeness Album Art">
         </a> -->
 
-
-
         <!-- ==========Music Player========== -->
         <div id="music-player">
           <ul id="playlist">
-            <h2 class="text-centered">The minimalistic, sketchily-coded music player.</h2>
-            <h3 class="text-centered">singer-songwriter-y section</h3>
+            <h2 class="text-centered" id="music-player-title">
+              The minimalistic, sketchily-coded music player.
+            </h2>
+            <h3 class="text-centered">Singer Songwriter</h3>
             <p>
-              I was in the process of writing and recording a full-length album called <strong><a href="lowlinessofmind.html" class="loma">Lowliness Of Mind</a></strong> when I initially made this website, but since then I've moved on to another
-              musical project called "Childlikeness", where I intend to craft together songs that portray childlike faith in the midst of suffering.
+              When I initially made this website, I was in the process of writing and recording a full-length
+              album called
+              "Lowliness of Mind", but since then I've moved on
+              to another musical project called <a target="_blank" href="https://open.spotify.com/album/7EfOm7MjS0Ztzg4V7drhrP">"Childlikeness"</a>, which I released May 2020. This album was composed of a collection of songs written over
+              the past several years, and in a very tangible way documents the process of learning how to write, record, mix, and master a full length album without being concerned with implementing an underlying theme to tie the songs together.
             </p>
 
-            <p>
-              Here is a bedroom recording of a song from the new project called "sing & talk", which premiered on <a target="_blank" href="https://www.indievisionmusic.com/news/song-premiere-allen-odell-sing-talk/">Indie Vision Music</a> February 5,
-              2018. You can listen to the rest of the singles I've released so far on my <a target="_blank" href="https://soundcloud.com/allrio">Soundcloud</a>. But the more official distribution links are coming soon. For now here's a <a href="https://allenodell.bandcamp.com/">Bandcamp link</a>.
-            </p>
+            <p>By contrast, I am currently (Fall 2020) in the recording process of my latest project titled "Full Hearts, Empty Places", which is far more personal and conceptual. More details to come soon, for now listen to my latest single on
+              Spotify,<a href="https://open.spotify.com/album/2tdV7Y2fZOIr9uofn4m89T?si=35_3zQRXR16eCxdAp4vr9w"> "Chattanooga / I Hear You"</a></p>
 
+            <p>
+              Here is one of the first versions of a song from "Childlikeness"
+              called <a target="_blank" href="https://open.spotify.com/track/2IHVoSu6jPnPAEOLhjhcA2">"Sing & Talk"</a>, which premiered on
+              <a target="_blank" href="https://www.indievisionmusic.com/news/song-premiere-allen-odell-sing-talk/">Indie Vision Music</a>
+              February 5, 2018. The final record is available on <a target="_blank" href="https://distrokid.com/hyperfollow/allenodell/childlikeness">all platforms</a>. This player was built using vanilla javascript.
+            </p>
 
             <li class="track">
               <p>sing & talk</p>
@@ -96,39 +110,55 @@
                   </div>
                 </div>
               </div>
-              <p class='song-length'>0:00</p>
+              <p class="song-length">0:00</p>
             </li>
 
             <p style="text-align: center">
-              <br>
-              Down by the blackberries, the duck pond, and the shading pines. <br>
-              Laughing loudly, hearts merry, wishing that the sun wouldn’t hide. <br>
-              Playing ball and hide and go seek, seeking for our purpose in life. <br>
-              Dirty fingernails, faces, and feet. Scraping knees, unashamed to cry. <br> <br>
+              <br />
+              Down by the blackberries, the duck pond, and the shading pines.
+              <br />
+              Laughing loudly, hearts merry, wishing that the sun wouldn’t
+              hide. <br />
+              Playing ball and hide and go seek, seeking for our purpose in
+              life. <br />
+              Dirty fingernails, faces, and feet. Scraping knees, unashamed to
+              cry. <br />
+              <br />
 
-              And I sing, and I talk, and I run, and I fall down. <br>
-              And I sing, and I talk, and I run, and I fall down. <br> <br>
+              And I sing, and I talk, and I run, and I fall down. <br />
+              And I sing, and I talk, and I run, and I fall down. <br />
+              <br />
 
-              Lying under cold bed sheets, praying that the sun would rise. <br>
-              I really need my mom and dad, please! Let me know that it will all be fine. <br>
-              The sudden light from the night lamp soothes, my memories are slowly impaired. <br>
-              The man was in a bright red suit, I was running up the basement stairs. <br> <br>
+              Lying under cold bed sheets, praying that the sun would rise.
+              <br />
+              I really need my mom and dad, please! Let me know that it will
+              all be fine. <br />
+              The sudden light from the night lamp soothes, my memories are
+              slowly impaired. <br />
+              The man was in a bright red suit, I was running up the basement
+              stairs. <br />
+              <br />
 
-              And I sing, and I talk, and I run, and I fall down. <br>
-              And I sing, and I talk, and I run, and I fall down. <br> <br>
+              And I sing, and I talk, and I run, and I fall down. <br />
+              And I sing, and I talk, and I run, and I fall down. <br />
+              <br />
 
-              Oh my God, <br>
-              I sin, and I fall, and I run right back to you now! <br>
-              Oh my God, <br>
-              I sin, and I fall, and I turn right back to you now! <br>
-              Oh my God, <br>
-              I sin, and I fall, and I run right back to you now! <br>
+              Oh my God, <br />
+              I sin, and I fall, and I run right back to you now! <br />
+              Oh my God, <br />
+              I sin, and I fall, and I turn right back to you now! <br />
+              Oh my God, <br />
+              I sin, and I fall, and I run right back to you now! <br />
             </p>
 
-
-            <h3 class="text-centered">hip-hop-y section</h3>
-            <p>I started making beats when I was about 14 years old. Since then, I've been making beats simply for the fun and the vibes. I prefer to focus on designing an overall ambient sound while juxtaposing organic and electronic samples. Here are a few rough mixes.</p>
-
+            <h3 class="text-centered">Beat Making</h3>
+            <p>
+              I started making beats when I was about 14 years old. Since
+              then, I've been making beats simply for the fun and the vibes. I
+              prefer to focus on designing an overall ambient sound while
+              juxtaposing organic and electronic samples. Here are a few rough
+              mixes.
+            </p>
 
             <li class="track">
               <p>Brand New</p>
@@ -144,9 +174,8 @@
                   </div>
                 </div>
               </div>
-              <p class='song-length'>0:00</p>
+              <p class="song-length">0:00</p>
             </li>
-
 
             <li class="track">
               <p>Distant Memory</p>
@@ -162,11 +191,8 @@
                   </div>
                 </div>
               </div>
-              <p class='song-length'>0:00</p>
+              <p class="song-length">0:00</p>
             </li>
-
-
-
 
             <li class="track">
               <p>Petrie</p>
@@ -182,10 +208,8 @@
                   </div>
                 </div>
               </div>
-              <p class='song-length'>0:00</p>
+              <p class="song-length">0:00</p>
             </li>
-
-
           </ul>
         </div>
         <!-- ==========End Music Player========== -->
@@ -194,20 +218,21 @@
       <section>
         <h1 class="text-centered article-title">Other music stuff...</h1>
         <p>
-          For a few more demos and beats, you can also check out my <a target="_blank" href="http://soundcloud.com/allrio"><strong>Soundcloud</strong></a>.
+          For a few more demos and beats, you can also check out my
+          <a target="_blank" href="http://soundcloud.com/allrio"><strong>Soundcloud</strong></a>.
         </p>
 
         <p>
-          I also have a growing collection of covers on my <a href="https://www.youtube.com/channel/UCnTy3nDx5ZG_549i7uVX9RQ"><strong>Youtube</strong></a> channel. A couple of which have been re-shared by the artists themselves! I mean, yes, I sent
-          them the videos first, but still, super friggin' cool.
+          I also have a growing collection of covers on my
+          <a href="https://www.youtube.com/channel/UCnTy3nDx5ZG_549i7uVX9RQ"><strong>Youtube</strong></a>
+          channel. A couple of which have been re-shared by the artists
+          themselves! I mean, yes, I sent them the videos first, but still,
+          super friggin' cool.
         </p>
 
         <iframe width="100%" height="315px" src="https://www.youtube.com/embed/L3njuqSyEY4" frameborder="0" allowfullscreen></iframe>
-
       </section>
-
     </div>
-
 
     <footer class="footer-fixed">
       <div>
