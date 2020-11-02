@@ -409,37 +409,12 @@ figcaption {
 
 .fa-sm {
   color: white;
-  border-radius: 20px;
 }
 
-#fb-con:hover {
+#fb-con:hover, #twitcon:hover, #instacon:hover, #yt-con:hover, #sc-con:hover {
   background: white;
   color: black;
-  padding: 10px;
-}
-
-#twitcon:hover {
-  background: white;
-  color: black;
-  padding: 10px;
-}
-
-#instacon:hover {
-  background: white;
-  color: black;
-  padding: 10px;
-}
-
-#yt-con:hover {
-  background: white;
-  color: black;
-  padding: 10px;
-}
-
-#sc-con:hover {
-  background: white;
-  color: black;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 #footerlinks {
