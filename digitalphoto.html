@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Allen Osorio - Photos</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Halant|Neuton" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Google Analytics Begin -->
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      (i[r] =
+        i[r] ||
+        function() {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+      (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      'script',
+      'https://www.google-analytics.com/analytics.js',
+      'ga'
+    );
+
+    ga('create', 'UA-97469223-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Google Analytics End -->
+</head>
+
+<body>
+  <div id="site">
+    <header class="title">
+
+      <h1 class="main-title">digital photo</h1>
+      <div class="nav-show-button">menu</div>
+      <navbar class="navleft">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="music.html">music</a></li>
+          <li><a href="visuals.html">visuals</a></li>
+          <li><a href="realbread.html">real bread</a></li>
+        </ul>
+      </navbar>
+    </header>
+    <section>
+
+
+
+
+      <div class="image-content fade-in">
+
+
+
+
+        <img class="image-visuals pentax-though" src="images/gh4/gh4 (41).jpg" alt="" />
+        <div class="pop-up-explain-visible">
+          <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
+        </div>
+
+        <img class="image-visuals pentax-though" src="images/gh4/gh4 (42).jpg" alt="" />
+        <div class="pop-up-explain-visible">
+          <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
+        </div>
+
+        <img class="image-visuals pentax-though" src="images/gh4/gh4 (43).jpg" alt="" />
+        <div class="pop-up-explain-visible">
+          <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
+        </div>
+
+        <img class="image-visuals pentax-though" src="images/gh4/gh4 (44).jpg" alt="" />
+        <div class="pop-up-explain-visible">
+          <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
+        </div>
+
+
+
+
+
+
+        <!-- IMPORT AND UPLOAD PHOTOS -->
+        <script type="text/javascript">
+          // CREATE PHOTO ARRAY
+          let photos = () => {
+            let totalPhotos = []
+            for (photo = 0; photo <= 40; photo++) {
+              fileNum = (photo).toString()
+              newFile = "gh4 (" + fileNum + ").jpg"
+              let z = document.createElement('img')
+              z.classList.add("image-visuals")
+              z.classList.add("pentax-though")
+              z.src = "images/gh4/" + newFile
+              let insertPhoto = z
+              totalPhotos.push(insertPhoto)
+            }
+            return totalPhotos
+          }
+
+
+          // CREATE POPUP CAPTION
+          function popUp() {
+            let z = document.createElement('div')
+            z.classList.add('pop-up-explain-visible')
+            let p = document.createElement('p')
+            let text = document.createTextNode('Lumix GH4, K to M43 Adapter, 50mm 1.7')
+            p.appendChild(text)
+            z.appendChild(p)
+            return z
+          }
+
+          // UPLOAD PHOTO FUNCTION
+          function uploadPhoto(i) {
+            return document.querySelector('.image-content').appendChild(photos()[i])
+          }
+
+          // INSERT AFTER FUNCTION
+          function insertAfter(referenceNode, newNode) {
+            referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+          }
+
+          photos().forEach((photo, i) => {
+            i += 1
+            insertAfter(uploadPhoto(i), popUp())
+          })
+        </script>
+        <!-- END IMPORT AND UPLOAD PHOTOS -->
+
+
+
+      </div>
+    </section>
+
+    <footer class="footer-fixed">
+      <div>
+        <a id="fb-con" class="fa-sm" href="https://www.facebook.com/allenodellmusic/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+        <a id="twitcon" class="fa-sm" href="https://twitter.com/allrio"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+        <a id="instacon" class="fa-sm" href="https://www.instagram.com/allrio/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+        <a id="yt-con" class="fa-sm" href="https://www.youtube.com/channel/UCnTy3nDx5ZG_549i7uVX9RQ"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
+        <a id="sc-con" class="fa-sm" href="https://soundcloud.com/allrio"><i class="fa fa-soundcloud fa-lg" aria-hidden="true"></i></a>
+      </div>
+      <div id="footerlinks">
+        <a href="about.html">about</a>
+        <a href="music.html">music</a>
+        <a href="visuals.html">visuals</a>
+        <a href="realbread.html">real bread</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/visuals.js" charset="utf-8"></script>
+  <script src="js/scroll.js" charset="utf-8"></script>
+</body>
+
+</html>
