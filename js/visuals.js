@@ -10,12 +10,12 @@ imageContents.forEach(function(event) {
     if (this.textContent) {
 
     } else {
-        this.classList.toggle("expand-small")
-        var popUpExplain = this.nextElementSibling;
-        setTimeout(function() {
-            popUpExplain.classList.toggle("pop-up-explain-visible");
-            popUpExplain.classList.toggle("pop-up-explain-hidden");
-        }, 200);
+      this.classList.toggle("expand-small")
+      var popUpExplain = this.nextElementSibling;
+      setTimeout(function() {
+        popUpExplain.classList.toggle("pop-up-explain-visible");
+        popUpExplain.classList.toggle("pop-up-explain-hidden");
+      }, 100);
     }
   })
 })
