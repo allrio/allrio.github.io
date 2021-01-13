@@ -70,25 +70,16 @@
 
 
 
-        <img class="image-visuals pentax-though" src="images/gh4/gh4 (41).jpg" alt="" />
+        <img class="image-visuals pentax-though" src="images/gh4small/gh4 (37).jpg" alt="" />
         <div class="pop-up-explain-visible">
           <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
         </div>
 
-        <img class="image-visuals pentax-though" src="images/gh4/gh4 (42).jpg" alt="" />
+        <img class="image-visuals pentax-though" src="images/gh4small/gh4 (38).jpg" alt="" />
         <div class="pop-up-explain-visible">
           <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
         </div>
 
-        <img class="image-visuals pentax-though" src="images/gh4/gh4 (43).jpg" alt="" />
-        <div class="pop-up-explain-visible">
-          <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
-        </div>
-
-        <img class="image-visuals pentax-though" src="images/gh4/gh4 (44).jpg" alt="" />
-        <div class="pop-up-explain-visible">
-          <p>Lumix GH4, K to M43 Adapter, 50mm 1.7</p>
-        </div>
 
 
 
@@ -100,13 +91,13 @@
           // CREATE PHOTO ARRAY
           let photos = () => {
             let totalPhotos = []
-            for (photo = 0; photo <= 40; photo++) {
+            for (photo = 0; photo <= 36; photo++) {
               fileNum = (photo).toString()
               newFile = "gh4 (" + fileNum + ").jpg"
               let z = document.createElement('img')
               z.classList.add("image-visuals")
               z.classList.add("pentax-though")
-              z.src = "images/gh4/" + newFile
+              z.src = "images/gh4small/" + newFile
               let insertPhoto = z
               totalPhotos.push(insertPhoto)
             }
