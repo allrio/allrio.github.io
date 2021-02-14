@@ -588,6 +588,10 @@ figcaption {
   margin: 0;
 }
 
+#disqus {
+  margin: 350px auto;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 925px) {
   .navleft {
