@@ -128,7 +128,7 @@ p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.blog-post {
+p.blog-post {
   font-family: 'Esteban', sans-serif;
   font-size: 18px;
 }
