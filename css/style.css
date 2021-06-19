@@ -14,7 +14,7 @@ body {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Esteban', sans-serif;
 }
 
 #background-home {
@@ -63,6 +63,7 @@ h1 {
   transition: all 1s;
   font-size: 25px;
   font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .h1-shrink {
@@ -91,6 +92,7 @@ h2 {
   font-weight: 100;
   padding: 0 10px;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -102,7 +104,6 @@ h4 {
 }
 
 p {
-  font-family: 'Esteban', sans-serif;
   margin: 0;
   line-height: 28px;
   padding: 20px;
@@ -200,6 +201,7 @@ i {
   overflow: hidden;
   text-transform: uppercase;
   font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navleft:hover {
