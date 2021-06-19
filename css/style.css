@@ -102,7 +102,7 @@ h4 {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Esteban', sans-serif;
   margin: 0;
   line-height: 28px;
   padding: 20px;
@@ -129,7 +129,6 @@ p {
 }
 
 p.blog-post {
-  font-family: 'Esteban', sans-serif;
   font-size: 18px;
 }
 
