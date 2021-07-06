@@ -26,24 +26,29 @@ var playlist = {
   "track_1": {
     song: "sing & talk",
     artist: "allen odell",
-    src: "audio/sing & talk (mix 1.5).wav"
+    src: "audio/02 sing & talk master.mp3"
   },
   "track_2": {
+    song: "cease striving",
+    artist: "allen odell",
+    src: "audio/03 cease striving master.mp3"
+  },
+  "track_3": {
     song: "Holy Fear",
     artist: "allen odell",
     src: "audio/holyfear.mp3"
   },
-  "track_3": {
+  "track_4": {
     song: "Brand New",
     artist: "allen odell",
     src: "audio/BrandNew.mp3"
   },
-  "track_4": {
+  "track_5": {
     song: "Distant Memory",
     artist: "allen odell",
     src: "audio/distant memory.mp3"
   },
-  "track_5": {
+  "track_6": {
     song: "Petrie",
     artist: "allen odell",
     src: "audio/petrie.mp3"
