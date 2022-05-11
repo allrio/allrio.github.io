@@ -26,32 +26,17 @@ var playlist = {
   "track_1": {
     song: "Oakland",
     artist: "allen odell",
-    src: "audio/Oakland Master.wav"
+    src: "audio/Oakland Master.mp3"
   },
   "track_2": {
     song: "Minute Break",
     artist: "allen odell",
-    src: "audio/Minute Break Master.wav"
+    src: "audio/Minute Break Master.mp3"
   },
   "track_3": {
-    song: "Holy Fear",
+    song: "song name",
     artist: "allen odell",
-    src: "audio/holyfear.mp3"
-  },
-  "track_4": {
-    song: "Brand New",
-    artist: "allen odell",
-    src: "audio/BrandNew.mp3"
-  },
-  "track_5": {
-    song: "Distant Memory",
-    artist: "allen odell",
-    src: "audio/distant memory.mp3"
-  },
-  "track_6": {
-    song: "Petrie",
-    artist: "allen odell",
-    src: "audio/petrie.mp3"
+    src: "audio/filename.mp3"
   }
 
 }
