@@ -24,14 +24,14 @@ function findAudioElements() {
 //Object with song sources
 var playlist = {
   "track_1": {
-    song: "sing & talk",
+    song: "Oakland",
     artist: "allen odell",
-    src: "audio/02 sing & talk master.mp3"
+    src: "audio/Oakland Master.wav"
   },
   "track_2": {
-    song: "cease striving",
+    song: "Minute Break",
     artist: "allen odell",
-    src: "audio/03 cease striving master.mp3"
+    src: "audio/Minute Break Master.wav"
   },
   "track_3": {
     song: "Holy Fear",
